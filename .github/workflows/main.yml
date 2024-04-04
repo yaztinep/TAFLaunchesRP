@@ -32,5 +32,3 @@ jobs:
         path: |
           ./Automation.Framework.Core.WebUI/bin/Release
           ./AutomationRunner/bin/Release
-     
-    -
