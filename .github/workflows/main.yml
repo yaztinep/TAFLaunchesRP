@@ -13,22 +13,24 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Setup .NET Framework
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: '4.8'
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.0.0
 
     - name: Restore NuGet packages
       run: nuget restore
 
-    - name: Build project
-      run: msbuild /p:Configuration=Release
+    - name: Build Automation.Framework.Core.WebUI
+      run: msbuild /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=Automation.Framework.Core.WebUI.csproj
 
-    - name: Run tests
-      run: vstest.console.exe /logger:trx
+    - name: Build AutomationRunner
+      run: msbuild /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=AutomationRunner.csproj
 
     - name: Publish artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: AutomationRunner.csproj
-        path: ./bin/Release
+        name: MyProject
+        path: |
+          ./Automation.Framework.Core.WebUI/bin/Release
+          ./AutomationRunner/bin/Release
+     
+    -
