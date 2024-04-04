@@ -14,16 +14,18 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.0.0
+      run: |
+        echo "##[set-env name=MSBUILD_PATH]C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin"
+        echo "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin" >> $GITHUB_ENV
 
     - name: Restore NuGet packages
       run: nuget restore
 
     - name: Build Automation.Framework.Core.WebUI
-      run: msbuild /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=Automation.Framework.Core.WebUI.csproj
+      run: ${{ env.MSBUILD_PATH }}/MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=Automation.Framework.Core.WebUI.csproj
 
     - name: Build AutomationRunner
-      run: msbuild /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=AutomationRunner.csproj
+      run: ${{ env.MSBUILD_PATH }}/MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=AutomationRunner.csproj
 
     - name: Publish artifacts
       uses: actions/upload-artifact@v2
