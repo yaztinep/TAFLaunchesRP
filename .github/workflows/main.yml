@@ -19,11 +19,11 @@ jobs:
     #- name: Restore NuGet packages
     # run: nuget restore
 
-    - name: Build Automation.Framework.Core.WebUI
-      run: ${{ env.MSBUILD_PATH }}\MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=Automation.Framework.Core.WebUI.csproj
+    #- name: Build Automation.Framework.Core.WebUI
+     # run: ${{ env.MSBUILD_PATH }}\MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=Automation.Framework.Core.WebUI.csproj
 
-    - name: Build AutomationRunner
-      run: ${{ env.MSBUILD_PATH }}\MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=AutomationRunner.csproj
+    #- name: Build AutomationRunner
+     # run: ${{ env.MSBUILD_PATH }}\MSBuild.exe /p:Configuration=Release /p:Platform="Any CPU" /t:Build /p:ProjectFile=AutomationRunner.csproj
 
     - name: Publish artifacts
       uses: actions/upload-artifact@v2
