@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|c:\\users\\yazmin_tinoco\\source\\repos\\automation.framework\\automation.framework.core.webui\\reporting\\extentfeaturereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|solutionrelative:automation.framework.core.webui\\reporting\\extentfeaturereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|c:\\users\\yazmin_tinoco\\source\\repos\\automation.framework\\automation.framework.core.webui\\websteps\\specflowbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|solutionrelative:automation.framework.core.webui\\websteps\\specflowbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|c:\\users\\yazmin_tinoco\\source\\repos\\automation.framework\\automation.framework.core.webui\\webabstractions\\iextentfeaturereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|solutionrelative:automation.framework.core.webui\\webabstractions\\iextentfeaturereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|c:\\users\\yazmin_tinoco\\source\\repos\\automation.framework\\automation.framework.core.webui\\websteps\\stepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D02497-9184-495F-95E0-7735F069EA54}|Automation.Framework.Core.WebUI\\Automation.Framework.Core.WebUI.csproj|solutionrelative:automation.framework.core.webui\\websteps\\stepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExtentFeatureReport.cs",
+              "DocumentMoniker": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebAbstractions\\IExtentFeatureReport.cs",
+              "RelativeDocumentMoniker": "Automation.Framework.Core.WebUI\\WebAbstractions\\IExtentFeatureReport.cs",
+              "ToolTip": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebAbstractions\\IExtentFeatureReport.cs",
+              "RelativeToolTip": "Automation.Framework.Core.WebUI\\WebAbstractions\\IExtentFeatureReport.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAjwA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T00:11:52.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExtentFeatureReport.cs",
+              "DocumentMoniker": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\Reporting\\ExtentFeatureReport.cs",
+              "RelativeDocumentMoniker": "Automation.Framework.Core.WebUI\\Reporting\\ExtentFeatureReport.cs",
+              "ToolTip": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\Reporting\\ExtentFeatureReport.cs",
+              "RelativeToolTip": "Automation.Framework.Core.WebUI\\Reporting\\ExtentFeatureReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T00:06:49.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpecflowBase.cs",
+              "DocumentMoniker": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebSteps\\SpecflowBase.cs",
+              "RelativeDocumentMoniker": "Automation.Framework.Core.WebUI\\WebSteps\\SpecflowBase.cs",
+              "ToolTip": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebSteps\\SpecflowBase.cs",
+              "RelativeToolTip": "Automation.Framework.Core.WebUI\\WebSteps\\SpecflowBase.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwCcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:57:58.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebSteps\\StepDefinitions.cs",
+              "RelativeDocumentMoniker": "Automation.Framework.Core.WebUI\\WebSteps\\StepDefinitions.cs",
+              "ToolTip": "C:\\Users\\Yazmin_Tinoco\\source\\repos\\Automation.Framework\\Automation.Framework.Core.WebUI\\WebSteps\\StepDefinitions.cs",
+              "RelativeToolTip": "Automation.Framework.Core.WebUI\\WebSteps\\StepDefinitions.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T23:57:51.375Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

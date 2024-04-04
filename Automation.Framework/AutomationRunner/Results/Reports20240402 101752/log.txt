@@ -1,0 +1,1 @@
+2024-04-02 22:18:53.512 -06:00 [ERR] applicationRegion.json doesn't existThe configuration file 'applicationRegion.json' was not found and is not optional. The expected physical path was 'C:\Users\Yazmin_Tinoco\source\repos\Automation.Framework\AutomationRunner\bin\Debug\net48\Resources\applicationRegion.json'.

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataSetLocation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Automation.Framework.Core.WebUI\Automation.Framework.Core.WebUI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\applicationRegion.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\frameworkSetting.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="specflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
