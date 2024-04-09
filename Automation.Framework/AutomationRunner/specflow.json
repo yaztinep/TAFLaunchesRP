@@ -3,7 +3,7 @@
   "language": { "feature": "en-us" },
   "stepAssemblies" :[
     {
-      "assembly": "Automation.Framework.Core.WebUI"
+      "assembly": "Automation.Framework"
     }
   ]
 
